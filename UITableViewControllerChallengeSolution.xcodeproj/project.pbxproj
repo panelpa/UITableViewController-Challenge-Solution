@@ -14,13 +14,13 @@
 		8032BB5419FAAC840067E5AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032BB5319FAAC840067E5AF /* main.m */; };
 		8032BB5819FAAC840067E5AF /* PAPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032BB5719FAAC840067E5AF /* PAPAppDelegate.m */; };
 		8032BB5B19FAAC840067E5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8032BB5919FAAC840067E5AF /* Main.storyboard */; };
-		8032BB5E19FAAC840067E5AF /* PAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032BB5D19FAAC840067E5AF /* PAPViewController.m */; };
 		8032BB6019FAAC840067E5AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8032BB5F19FAAC840067E5AF /* Images.xcassets */; };
 		8032BB6719FAAC840067E5AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8032BB6619FAAC840067E5AF /* XCTest.framework */; };
 		8032BB6819FAAC840067E5AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8032BB4719FAAC840067E5AF /* Foundation.framework */; };
 		8032BB6919FAAC840067E5AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8032BB4B19FAAC840067E5AF /* UIKit.framework */; };
 		8032BB7119FAAC840067E5AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8032BB6F19FAAC840067E5AF /* InfoPlist.strings */; };
 		8032BB7319FAAC840067E5AF /* UITableViewControllerChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032BB7219FAAC840067E5AF /* UITableViewControllerChallengeSolutionTests.m */; };
+		8032BB7E19FAAE460067E5AF /* PAPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032BB7D19FAAE460067E5AF /* PAPTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		8032BB5619FAAC840067E5AF /* PAPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAPAppDelegate.h; sourceTree = "<group>"; };
 		8032BB5719FAAC840067E5AF /* PAPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAPAppDelegate.m; sourceTree = "<group>"; };
 		8032BB5A19FAAC840067E5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8032BB5C19FAAC840067E5AF /* PAPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAPViewController.h; sourceTree = "<group>"; };
-		8032BB5D19FAAC840067E5AF /* PAPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAPViewController.m; sourceTree = "<group>"; };
 		8032BB5F19FAAC840067E5AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8032BB6519FAAC840067E5AF /* UITableViewControllerChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8032BB6619FAAC840067E5AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8032BB6E19FAAC840067E5AF /* UITableViewControllerChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		8032BB7019FAAC840067E5AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8032BB7219FAAC840067E5AF /* UITableViewControllerChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeSolutionTests.m; sourceTree = "<group>"; };
+		8032BB7C19FAAE460067E5AF /* PAPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPTableViewController.h; sourceTree = "<group>"; };
+		8032BB7D19FAAE460067E5AF /* PAPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				8032BB5619FAAC840067E5AF /* PAPAppDelegate.h */,
 				8032BB5719FAAC840067E5AF /* PAPAppDelegate.m */,
 				8032BB5919FAAC840067E5AF /* Main.storyboard */,
-				8032BB5C19FAAC840067E5AF /* PAPViewController.h */,
-				8032BB5D19FAAC840067E5AF /* PAPViewController.m */,
+				8032BB7C19FAAE460067E5AF /* PAPTableViewController.h */,
+				8032BB7D19FAAE460067E5AF /* PAPTableViewController.m */,
 				8032BB5F19FAAC840067E5AF /* Images.xcassets */,
 				8032BB4E19FAAC840067E5AF /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8032BB5819FAAC840067E5AF /* PAPAppDelegate.m in Sources */,
+				8032BB7E19FAAE460067E5AF /* PAPTableViewController.m in Sources */,
 				8032BB5419FAAC840067E5AF /* main.m in Sources */,
-				8032BB5E19FAAC840067E5AF /* PAPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
